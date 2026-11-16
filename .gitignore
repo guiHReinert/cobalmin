@@ -3,3 +3,9 @@
 
 __pycache__/
 
+cobalmin/temp/
+
+docs/
+tests/
+
+test.sh

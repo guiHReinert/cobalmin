@@ -1,4 +1,4 @@
 import os
-from paths import *
+import paths
 
 

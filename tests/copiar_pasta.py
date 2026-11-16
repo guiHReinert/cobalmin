@@ -1,8 +1,8 @@
-import os
-from cobalmin.paths import *
-from cobalmin import Reader
+from cobalmin.model.stockpile import Stockpile
+from cobalmin.pipeline.miner import Miner
 
 original_dir = "/home/guilherme-hoerning-reinert/cobalto/markdown"
 
-reader = Reader(original_dir)
-reader.clean_titles()
+stockpile = Stockpile(original_dir)
+miner = Miner(stockpile)
+miner.clean_titles()
